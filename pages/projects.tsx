@@ -8,7 +8,7 @@ const Projects = () => {
     <section>
       <h1 className="text-5xl font-bold mb-16">My Projects</h1>
       <div className="space-y-12">
-        {myProjects.map(({ name, description, image, link }) => (
+        {myProjects.map(({ name, description, image, link, info }) => (
           <a
             key={name}
             href={link}
@@ -23,11 +23,15 @@ const Projects = () => {
             <img className="rounded-lg" src={image} alt="project" />
 
             <div className="absolute bg-black transition-all duration-300 scale-50 group-hover:scale-100 group-hover:bg-opacity-90 bg-opacity-0 rounded-md top-0 h-full w-full p-6 flex flex-col justify-end">
-              <h2 className="text-xl mb-3 font-medium opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <h2 className="text-xl mb-3 font-medium project-info">
                 {name}
               </h2>
-              <p className="text-secondary opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <p className="project-info text-secondary">
                 {description}
+              </p>
+
+              <p className="mt-8 project-info text-secondary">
+                {info}
               </p>
             </div>
           </a>
