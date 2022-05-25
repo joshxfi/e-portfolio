@@ -4,8 +4,8 @@ import { myProjects } from "@/utils/constants";
 
 const Projects = () => {
   return (
-    <section className="mt-20">
-      <h1 className="text-4xl font-bold mb-8">My Projects</h1>
+    <section>
+      <h1 className="text-5xl font-bold mb-8">My Projects</h1>
       <div className="space-y-6">
         {myProjects.map(({ name, description }) => (
           <button

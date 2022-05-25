@@ -8,7 +8,7 @@ export const Navbar = () => {
   const { asPath } = useRouter();
 
   return (
-    <nav className="flex justify-between">
+    <nav className="flex mb-20 justify-between">
       <ul className="space-x-6">
         {navItems.map(({ name, link }) => (
           <Link href={link} key={name}>

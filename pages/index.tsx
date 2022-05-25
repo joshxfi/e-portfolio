@@ -4,7 +4,7 @@ import { About, Achievements } from "@/components/Home";
 
 const Homepage = () => {
   return (
-    <section className="mt-20">
+    <section>
       <div className="flex justify-between">
         <div>
           <h1 className="font-bold text-5xl">Autodidact</h1>

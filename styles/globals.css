@@ -13,3 +13,9 @@ body {
     @apply bg-primary text-white;
   }
 }
+
+@layer components {
+  .input {
+    @apply bg-[#F9FAFB] w-full outline-none border-b-2 border-secondary py-1;
+  }
+}
