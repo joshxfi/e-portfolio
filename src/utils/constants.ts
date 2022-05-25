@@ -1,6 +1,6 @@
 export const navItems = [
   {
-    name: "About",
+    name: "Home",
     link: "/",
   },
   {
@@ -43,5 +43,35 @@ export const myProjects = [
   {
     name: "text-portrait-generator",
     description: "A customizable CSS text portrait generator for non-coders",
+  },
+];
+
+export const footerRoutes = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "Projects",
+    href: "/projects",
+  },
+  {
+    name: "Contact",
+    href: "/contact",
+  },
+];
+
+export const footerSocials = [
+  {
+    name: "Github",
+    href: "https://github.com/joshxfi",
+  },
+  {
+    name: "Twitter",
+    href: "https://twitter.com/joshxfi",
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/josh.xfi",
   },
 ];

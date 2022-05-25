@@ -9,6 +9,10 @@ body {
 }
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply bg-primary text-white;
   }
@@ -17,5 +21,13 @@ body {
 @layer components {
   .input {
     @apply bg-[#F9FAFB] w-full outline-none border-b-2 border-secondary py-1;
+  }
+
+  .footer-item-container {
+    @apply flex flex-col mt-4 space-y-4;
+  }
+
+  .footer-item {
+    @apply hover:text-opacity-70 transition-colors text-secondary;
   }
 }
