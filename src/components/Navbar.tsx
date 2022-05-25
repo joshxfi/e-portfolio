@@ -14,8 +14,9 @@ export const Navbar = () => {
           <Link href={link} key={name}>
             <a
               className={`${
-                asPath === link && "font-medium text-white"
-              } text-secondary`}
+                asPath === link &&
+                "font-medium hover:text-opacity-100 text-white"
+              } text-secondary hover:text-opacity-70 transition-colors`}
             >
               {name}
             </a>
@@ -23,13 +24,8 @@ export const Navbar = () => {
         ))}
       </ul>
 
-      <a
-        className="text-xl"
-        target="_blank"
-        rel="noreferrer"
-        href="https://github.com/joshxfi"
-      >
-        <BsGithub />
+      <a target="_blank" rel="noreferrer" href="https://github.com/joshxfi">
+        <BsGithub className="text-white hover:text-opacity-70 text-xl transition-colors" />
       </a>
     </nav>
   );
