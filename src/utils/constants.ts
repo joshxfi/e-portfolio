@@ -8,10 +8,6 @@ export const navItems = [
     link: "/projects",
   },
   {
-    name: "Services",
-    link: "/services",
-  },
-  {
     name: "Contact",
     link: "/contact",
   },
