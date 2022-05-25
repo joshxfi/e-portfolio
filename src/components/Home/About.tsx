@@ -17,9 +17,7 @@ export const About = () => {
           Hello! I&apos;m Josh Daniel Bañares, an 18-year-old freelance software
           developer from Bacolod City, Philippines! I&apos;m currently a senior
           high school student at STI West Negros University. I learn how to code
-          by researching online and contributing to the open-source community! I
-          recently bought myself a road bike because of freelancing; I built
-          websites and systems for different clients!
+          by researching online and contributing to the open-source community!
         </p>
       </div>
     </section>

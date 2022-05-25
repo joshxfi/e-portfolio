@@ -19,30 +19,36 @@ export const myProjects = [
     description:
       "A free and open-source collaborative platform for tracking school activities or homework along with your friends or classmates.",
     link: "https://trackasone.me/",
-  },
-  {
-    name: "Groundwork PH",
-    description:
-      "An online B2B platform designed to create and gather networks for business establishments in the country! ",
-  },
-  {
-    name: "QR Code Lean Data System",
-    description:
-      "Inventory and warehouse management of non-chemical materials and components in manufacturing warehouses.",
+    image: "/imgs/trackasone.png",
   },
   {
     name: "github-stats-generator",
     description:
       "GitHub profile stats generator for your README.md with over 40 themes.",
+    image: "/imgs/gh-stats.png",
+  },
+  {
+    name: "Groundwork PH",
+    description:
+      "An online B2B platform designed to create and gather networks for business establishments in the country! ",
+    image: "/imgs/groundworkph.png",
+  },
+  {
+    name: "QR Code Lean Data System",
+    description:
+      "Inventory and warehouse management of non-chemical materials and components in manufacturing warehouses.",
+    image: "/imgs/qr-system.png",
   },
   {
     name: "tailwind-plus-x",
     description:
       "A generator for a variety of templates such as React.js and Next.js with Tailwind CSS configuration.",
+    image: "imgs/tailwind-plus-x.png",
   },
   {
     name: "text-portrait-generator",
     description: "A customizable CSS text portrait generator for non-coders",
+    image: "/imgs/text-portrait.jpg",
   },
 ];
 

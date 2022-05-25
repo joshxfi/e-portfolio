@@ -31,3 +31,8 @@ body {
     @apply hover:text-opacity-70 transition-colors text-secondary;
   }
 }
+
+.gradient {
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
