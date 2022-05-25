@@ -24,8 +24,9 @@ export const myProjects = [
   {
     name: "github-stats-generator",
     description:
-      "GitHub profile stats generator for your README.md with over 40 themes.",
+      "GitHub profile stats generator for your README.md with over 40 themes to choose from. Make your GitHub profile look beautiful!",
     image: "/imgs/gh-stats.png",
+    link: "https://gh-stats-gen.vercel.app/",
   },
   {
     name: "Groundwork PH",
@@ -44,11 +45,13 @@ export const myProjects = [
     description:
       "A generator for a variety of templates such as React.js and Next.js with Tailwind CSS configuration.",
     image: "imgs/tailwind-plus-x.png",
+    link: "https://www.npmjs.com/package/twpx",
   },
   {
     name: "text-portrait-generator",
     description: "A customizable CSS text portrait generator for non-coders",
     image: "/imgs/text-portrait.jpg",
+    link: "https://textportrait.vercel.app/",
   },
 ];
 

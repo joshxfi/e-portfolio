@@ -19,7 +19,7 @@ const Homepage = () => {
           </p>
         </div>
 
-          <div className="gradient rounded-full p-[3px] grid place-items-center">
+          <div>
             <Image
               className="rounded-full grayscale"
               objectFit="cover"
