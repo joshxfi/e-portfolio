@@ -19,17 +19,17 @@ const Homepage = () => {
           </p>
         </div>
 
-          <div>
-            <Image
-              className="rounded-full grayscale"
-              objectFit="cover"
-              height={150}
-              width={150}
-              priority
-              src="/imgs/profile.jpg"
-              alt="myself"
-            />
-          </div>
+        <div className="gradient rounded-full grid place-items-center h-[160px] w-[160px]">
+          <Image
+            className="rounded-full grayscale"
+            objectFit="cover"
+            height={150}
+            width={150}
+            priority
+            src="/imgs/profile.jpg"
+            alt="myself"
+          />
+        </div>
       </div>
 
       <About />

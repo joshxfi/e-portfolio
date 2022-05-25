@@ -32,7 +32,21 @@ body {
   }
 }
 
+@keyframes gradient-anim {
+  0% {
+    background-position: 10% 0%;
+  }
+  50% {
+    background-position: 91% 100%;
+  }
+  100% {
+    background-position: 10% 0%;
+  }
+}
+
 .gradient {
   background-color: #20bf55;
+  background-size: 200% 200%;
   background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+  animation: gradient-anim 3s ease infinite;
 }
