@@ -5,7 +5,19 @@ import { About, Achievements } from "@/components/Home";
 const Homepage = () => {
   return (
     <section>
-      <div className="flex justify-between">
+      <div className="flex flex-col md:flex-row justify-between">
+        <div className="grid md:hidden profile mb-16">
+          <Image
+            className="rounded-full grayscale"
+            objectFit="cover"
+            height={150}
+            width={150}
+            priority
+            src="/imgs/profile.jpg"
+            alt="myself"
+          />
+        </div>
+
         <div>
           <h1 className="font-bold text-5xl">Autodidact</h1>
           <div className="mt-2 flex space-x-2">
@@ -19,7 +31,7 @@ const Homepage = () => {
           </p>
         </div>
 
-        <div className="gradient rounded-full grid place-items-center h-[160px] w-[160px]">
+        <div className="hidden md:grid profile">
           <Image
             className="rounded-full grayscale"
             objectFit="cover"
