@@ -1,6 +1,6 @@
 import React from "react";
 import toast from "react-hot-toast";
-import { myProjects } from "../utils/constants";
+import { myProjects } from "@/utils/constants";
 
 export const Projects = () => {
   return (
