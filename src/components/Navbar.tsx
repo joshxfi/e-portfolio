@@ -1,13 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { MdDarkMode, MdOutlineDarkMode } from "react-icons/md";
+import { BsGithub } from "react-icons/bs";
 import { navItems } from "../utils/constants";
-import { useStore } from "../hooks";
 
 export const Navbar = () => {
-  const darkMode = useStore((state) => state.darkMode);
-  const toggleDarkMode = useStore((state) => state.toggleDarkMode);
   const { asPath } = useRouter();
 
   return (
@@ -26,9 +23,9 @@ export const Navbar = () => {
         ))}
       </ul>
 
-      <button className="text-xl" onClick={toggleDarkMode}>
-        {darkMode ? <MdDarkMode /> : <MdOutlineDarkMode />}
-      </button>
+      <a className="text-xl" href='https://github.com/joshxfi'>
+        <BsGithub />
+      </a>
     </nav>
   );
 };
