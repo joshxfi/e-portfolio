@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { About, Achievements } from "@/components/Home";
 
 const Homepage = () => {
   return (
@@ -7,15 +8,14 @@ const Homepage = () => {
       <div className="flex justify-between">
         <div>
           <h1 className="font-bold text-5xl">Autodidact</h1>
-          <p className="mt-2">
-            /ˌôdōˈdīdakt/ · <i className="text-secondary">noun</i> · a
-            self-taught person.
-          </p>
+          <div className="mt-2 flex space-x-2">
+            <i>(noun)</i>
+            <p>a self-taught person.</p>
+          </div>
+
           <p className="text-secondary w-[400px] mt-4">
             This is an e-Portfolio titled &quot;Autodidact&quot; because it best
-            describes how I learned to code and develop software. This site
-            contains and showcases my achievements and projects I made in my
-            software engineering journey.
+            describes how I learned to code and develop software.
           </p>
         </div>
 
@@ -31,6 +31,9 @@ const Homepage = () => {
           />
         </div>
       </div>
+
+      <About />
+      <Achievements />
     </section>
   );
 };

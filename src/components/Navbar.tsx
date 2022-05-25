@@ -23,7 +23,12 @@ export const Navbar = () => {
         ))}
       </ul>
 
-      <a className="text-xl" href='https://github.com/joshxfi'>
+      <a
+        className="text-xl"
+        target="_blank"
+        rel="noreferrer"
+        href="https://github.com/joshxfi"
+      >
         <BsGithub />
       </a>
     </nav>

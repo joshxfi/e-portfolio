@@ -2,7 +2,7 @@ import React from "react";
 import toast from "react-hot-toast";
 import { myProjects } from "@/utils/constants";
 
-export const Projects = () => {
+const Projects = () => {
   return (
     <section className="mt-20">
       <h1 className="text-4xl font-bold mb-8">My Projects</h1>
@@ -21,3 +21,5 @@ export const Projects = () => {
     </section>
   );
 };
+
+export default Projects;
