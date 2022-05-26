@@ -29,7 +29,7 @@ const Projects = () => {
                 {description}
               </p>
 
-              <p className="mt-3 md:mt-5 project-info text-xs md:text-base text-secondary">
+              <p className="mt-3 text-justify md:mt-5 project-info text-xs md:text-base text-secondary">
                 {info}
               </p>
             </div>

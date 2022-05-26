@@ -27,7 +27,7 @@ export const myProjects = [
     description:
       "An online B2B platform designed to create and gather networks for business establishments in the country! ",
     image: "/imgs/groundworkph.png",
-    info: "I worked on this project for a client as a part of a team of three. My role was a full-stack developer, so I worked on both the frontend and backend of the website. I learned how to work as a team and collaborate on a single project. This project allowed me to expand my knowledge in Git and Github, I learned mostly on how branches work such as how to create or merge branches and resolve conflicts.",
+    info: "I worked on this project with a team of three for a client. My role was a full-stack developer, so I worked on both the frontend and backend of the website. I learned how to work as a team and collaborate on a single project. This project allowed me to expand my knowledge in Git and Github, I learned mostly on how branches work such as how to create or merge branches and resolve conflicts.",
   },
   {
     name: "github-stats-generator",
@@ -42,7 +42,7 @@ export const myProjects = [
     description:
       "Inventory and warehouse management of non-chemical materials and components in manufacturing warehouses.",
     image: "/imgs/qr-system.png",
-    info: "This is a paid thesis project I created for a client at Bataan Peninsula State University. I learned how to use zustand which is a state management library, by using zustand it made me realize when to use and not to use a state management library. Since this was a solo freelance project, I learned how to create a contract and how to present to the client.",
+    info: "This is a thesis project I created for a client at Bataan Peninsula State University. I learned how to use zustand which is a state management library, by using zustand it made me realize when to use and not to use a state management library. Since this was a solo freelance project, I learned how to create a contract and how to present to the client.",
   },
   {
     name: "tailwind-plus-x",
