@@ -42,7 +42,7 @@ export const myProjects = [
     description:
       "Inventory and warehouse management of non-chemical materials and components in manufacturing warehouses.",
     image: "/imgs/qr-system.png",
-    info: "This is a paid thesis project I created for a group of college students at Bataan Peninsula State University. I learned how to use zustand which is a state management library, by using zustand it made me realize when to use and not to use a state management library. Since this was a solo freelance project, I learned how to create a contract and how to present to the client.",
+    info: "This is a paid thesis project I created for a client at Bataan Peninsula State University. I learned how to use zustand which is a state management library, by using zustand it made me realize when to use and not to use a state management library. Since this was a solo freelance project, I learned how to create a contract and how to present to the client.",
   },
   {
     name: "tailwind-plus-x",

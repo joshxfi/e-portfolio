@@ -25,7 +25,7 @@ const Homepage = () => {
             <p>a self-taught person.</p>
           </div>
 
-          <p className="text-secondary w-[400px] mt-4">
+          <p className="text-secondary w-full md:w-[400px] mt-4">
             This is an e-Portfolio titled &quot;Autodidact&quot; because it best
             describes how I learned to code and develop software.
           </p>
