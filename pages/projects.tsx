@@ -15,22 +15,21 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => {
-              if (!link)
-              toast.error("This is a private repository");
+              if (!link) toast.error("This is a private repository");
             }}
             className="block relative w-full bg-primary text-left transition-all group rounded-md"
           >
             <img className="rounded-lg" src={image} alt="project" />
 
-            <div className="absolute bg-black transition-all duration-300 scale-50 group-hover:scale-100 group-hover:bg-opacity-90 bg-opacity-0 rounded-md top-0 h-full w-full p-6 flex flex-col justify-end">
-              <h2 className="text-xl mb-3 font-medium project-info">
+            <div className="absolute bg-black transition-all duration-300 scale-50 group-hover:scale-100 group-hover:bg-opacity-90 bg-opacity-0 rounded-md top-0 h-full w-full md:p-6 p-2 flex flex-col justify-end">
+              <h2 className="md:text-xl mb-3 font-medium project-info">
                 {name}
               </h2>
-              <p className="project-info text-secondary">
+              <p className="project-info text-xs md:text-base text-secondary">
                 {description}
               </p>
 
-              <p className="mt-8 project-info text-secondary">
+              <p className="mt-8 project-info text-xs md:text-base text-secondary">
                 {info}
               </p>
             </div>
