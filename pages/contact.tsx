@@ -9,8 +9,8 @@ const Contact = () => {
   const [message, setMessage] = useState("");
 
   return (
-    <section className="flex justify-between">
-      <div>
+    <section className="flex flex-col md:flex-row justify-between">
+      <div className="mb-20 md:mb-0">
         <h1 className="text-5xl font-bold mb-8">Hit me up!</h1>
 
         <div className="mb-4">
@@ -49,7 +49,7 @@ const Contact = () => {
           toast.success("Message sent!");
         }}
       >
-        <div className="flex bg-two h-12 rounded-t items-center space-x-2 pl-4">
+        <div className="flex bg-two h-12 w-[350px] rounded-t items-center space-x-2 pl-4">
           {["bg-red-500", "bg-amber-500", "bg-green-500"].map((color) => (
             <i key={color} className={`${color} rounded-full p-[6px]`} />
           ))}
