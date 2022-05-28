@@ -8,7 +8,7 @@ const Projects = () => {
     <section>
       <h1 className="text-5xl font-bold mb-16">My Projects</h1>
       <div className="space-y-8 md:space-y-12">
-        {myProjects.map(({ name, description, image, link, info }) => (
+        {myProjects.map(({ name, description, image, link }) => (
           <a
             key={name}
             href={link}
@@ -27,10 +27,6 @@ const Projects = () => {
               </h2>
               <p className="project-info text-xs md:text-base text-secondary">
                 {description}
-              </p>
-
-              <p className="mt-3 text-justify md:mt-5 project-info text-xs md:text-base text-secondary">
-                {info}
               </p>
             </div>
           </a>
