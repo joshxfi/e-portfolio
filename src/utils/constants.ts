@@ -57,7 +57,7 @@ export const myProjects = [
     description: "A customizable CSS text portrait generator for non-coders",
     image: "/imgs/text-portrait.jpg",
     link: "https://textportrait.vercel.app/",
-    info: "This was once viral on facebook. Non-coders also wanted to create a portrait with text-effect but don't know how to use CSS, that's why I created this generator! I learned extra knowledge about CSS by playing around with it. This project was mentioned in awesome by Waren Gonzaga (a senior software-engineer and an open-source advocate)",
+    info: "This was once viral on facebook. Non-coders also wanted to create a portrait with text-effect but don't know how to use CSS, that's why I created this generator! I learned extra knowledge about CSS by playing around with it.",
   },
 ];
 
