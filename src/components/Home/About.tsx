@@ -17,13 +17,7 @@ export const About = () => {
           Hello! I&apos;m Josh Daniel Bañares, an 18-year-old freelance software
           developer from Bacolod City, and currently a senior high school
           student at STI West Negros University. I learn how to code by
-          researching online and contributing to the open-source community. I
-          started learning web development when I was 17 years old. There were
-          times when I struggled and lost motivation, but I still dedicated my
-          time to learning how to code. Because of the skills that I gained from
-          my dedication, a senior software engineer offered me my first
-          freelance gig and more offers came as time passed. Recently, I bought
-          myself a brand new road bike as a reward for myself!
+          researching online and contributing to the open-source community.
         </p>
       </div>
     </section>
