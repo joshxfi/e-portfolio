@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { About, Achievements } from "@/components/Home";
+import { Info } from "@/components";
 
 const Homepage = () => {
   return (
@@ -26,8 +26,8 @@ const Homepage = () => {
           </div>
 
           <p className="text-secondary w-full md:w-[400px] mt-4">
-            This is an e-Portfolio titled &quot;Autodidact&quot; because it best
-            describes how I learned to code and develop software.
+            Josh Daniel Bañares — I design, develop, and deploy open-source
+            software.
           </p>
         </div>
 
@@ -44,8 +44,37 @@ const Homepage = () => {
         </div>
       </div>
 
-      <About />
-      <Achievements />
+      <div className="h-[2px] bg-secondary bg-opacity-50 my-16" />
+
+      <div className="space-y-20">
+        <Info
+          title="Experience"
+          left={[
+            "2022 - Present",
+            "2022 - Present",
+            "2022 - Present",
+            "2021 - 2022",
+          ]}
+          right={[
+            "CTO - GDSC-USLS",
+            "Founder & Maintainer - Umamin",
+            "Co-Founder & Developer - Omsimos",
+            "Freelance Software Developer",
+          ]}
+        />
+
+        <Info
+          title="Education"
+          left={["2022 - Present", "2020 - 2022"]}
+          right={["University of St. La Salle", "STI West Negros University"]}
+        />
+
+        <Info
+          title="Skills"
+          left={["React.js", "Next.js", "TypeScript", "Tailwind CSS"]}
+          right={["GraphQL", "Firebase", "PlanetScale", "React Native"]}
+        />
+      </div>
     </section>
   );
 };

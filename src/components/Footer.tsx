@@ -31,12 +31,12 @@ export const Footer = () => {
         </div>
 
         <div className="hidden md:flex items-end">
-          <p className="text-secondary">Josh Daniel Bañares © 2022</p>
+          <p className="text-secondary">Josh Daniel Bañares © 2023</p>
         </div>
       </div>
       <div className="my-8 h-[1px] bg-two md:hidden" />
       <div className="flex justify-center md:hidden mt-12">
-        <p className="text-secondary">Josh Daniel Bañares © 2022</p>
+        <p className="text-secondary">Josh Daniel Bañares © 2023</p>
       </div>
     </footer>
   );

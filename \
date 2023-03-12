@@ -38,6 +38,11 @@ const Contact = () => {
       <form
         onSubmit={(e) => {
           e.preventDefault();
+          if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+            toast.error("Invalid email address");
+            return;
+          }
+
           setName("");
           setEmail("");
           setMessage("");
@@ -66,7 +71,7 @@ const Contact = () => {
             <p className="mb-2">Email</p>
             <input
               required
-              type="email"
+              type="text"
               className="input"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
