@@ -15,10 +15,17 @@ export const navItems = [
 
 export const myProjects = [
   {
+    name: "Umamin",
+    description:
+      "An open-source platform for sending and receiving anonymous messages.",
+    link: "https://umamin.link/",
+    image: "/imgs/umamin-app.png",
+  },
+  {
     name: "trackAsOne",
     description:
       "A free and open-source collaborative platform for tracking school activities or homework along with your friends or classmates.",
-    link: "https://trackasone.me/",
+    link: "https://tao.joshxfi.tech/",
     image: "/imgs/trackasone.png",
   },
   {
