@@ -44,7 +44,7 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="h-[2px] bg-secondary bg-opacity-50 my-16" />
+      <div className="h-[2px] bg-secondary bg-opacity-50 my-12" />
 
       <div className="space-y-20">
         <Info
@@ -70,9 +70,23 @@ const Homepage = () => {
         />
 
         <Info
+          list
           title="Skills"
           left={["React.js", "Next.js", "TypeScript", "Tailwind CSS"]}
           right={["GraphQL", "Firebase", "PlanetScale", "React Native"]}
+        />
+
+        <Info
+          list
+          title="Achievements"
+          left={[
+            "Most Outstanding Lead",
+            "Chief Executive Board Award",
+            "1st Place Research Colloquium",
+            "With Highest Honors (11-12)",
+            "With High Honors (9-10)",
+            "With Honors (7-8)",
+          ]}
         />
       </div>
     </section>
